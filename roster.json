@@ -242,6 +242,52 @@
       ]
     },
     {
+      "slug": "shyanne",
+      "name": "Shyanne",
+      "real": true,
+      "status": "New Signing",
+      "division": "Development",
+      "genre": "R&B · Pop",
+      "hometown": "",
+      "descriptor": "Soulful voice, bright energy. A singer-songwriter with the range to go pop and the roots to stay R&B.",
+      "bio": [
+        "Shyanne is a singer-songwriter working the line between contemporary R&B and pop. Her recent run of singles and features, including new motion and MUSCLE, shows a writer who leads with melody and a performer whose presence carries on camera as well as on stage.",
+        "TMG brought Shyanne into development as a crossover bet: an artist who can sit on an R&B playlist today and a pop radio panel tomorrow, with Torch ATL writing camps and the publishing roster behind her."
+      ],
+      "sound": [
+        "R&B",
+        "Pop",
+        "Singer-Songwriter",
+        "Crossover"
+      ],
+      "photo": "images/shyanne-web.jpg",
+      "accent": "#7B6BC9",
+      "links": {
+        "spotify": "https://open.spotify.com/search/Shyanne",
+        "instagram": "#"
+      },
+      "stats": {
+        "monthly_listeners": "—",
+        "followers": "—",
+        "top_market": "—"
+      },
+      "since": 2026,
+      "releases": [
+        {
+          "title": "MUSCLE",
+          "type": "Single",
+          "date": "2026-01-01",
+          "cover": "images/mock/shyanne-cover-1.svg"
+        },
+        {
+          "title": "new motion",
+          "type": "Single",
+          "date": "2025-01-01",
+          "cover": "images/mock/shyanne-cover-2.svg"
+        }
+      ]
+    },
+    {
       "slug": "ivory-lane",
       "name": "Ivory Lane",
       "real": false,

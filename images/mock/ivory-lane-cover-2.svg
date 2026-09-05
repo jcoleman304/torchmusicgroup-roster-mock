@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
-<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#221720"/><stop offset="1" stop-color="#070707"/></linearGradient>
-<filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="2"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 0.16"/></feComponentTransfer></filter></defs>
-<rect width="600" height="600" fill="url(#g)"/><rect x="-87" y="-4" width="223" height="223" fill="#8B5E83" fill-opacity="0.11" transform="rotate(-21 24 107)"/><rect x="117" y="46" width="376" height="376" fill="#a5839e" fill-opacity="0.09" transform="rotate(4 305 234)"/><rect x="-35" y="416" width="307" height="307" fill="#8B5E83" fill-opacity="0.16" transform="rotate(21 118 569)"/><rect x="414" y="232" width="312" height="312" fill="#a5839e" fill-opacity="0.15" transform="rotate(30 570 388)"/>
-<rect width="600" height="600" filter="url(#grain)" opacity="0.5"/>
-<rect x="24" y="24" width="552" height="552" fill="none" stroke="#D4AF37" stroke-opacity="0.35"/>
-<text x="48" y="500" font-family="Playfair Display, Georgia, serif" font-size="44" font-weight="600" fill="#F5F3EF">PASSENGER SIDE</text>
-<text x="48" y="540" font-family="Montserrat, Arial, sans-serif" font-size="14" letter-spacing="4" fill="#D4AF37">IVORY LANE &#183; SINGLE</text>
-</svg>

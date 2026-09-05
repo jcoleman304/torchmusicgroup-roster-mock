@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
-<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#161222"/><stop offset="1" stop-color="#070707"/></linearGradient>
-<filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="2"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 0.16"/></feComponentTransfer></filter></defs>
-<rect width="600" height="600" fill="url(#g)"/><rect x="229" y="67" width="343" height="343" fill="#5B4B8A" fill-opacity="0.12" transform="rotate(30 400 238)"/><rect x="442" y="-53" width="287" height="287" fill="#8175a3" fill-opacity="0.09" transform="rotate(5 585 90)"/><rect x="37" y="487" width="285" height="285" fill="#5B4B8A" fill-opacity="0.12" transform="rotate(-10 179 629)"/><rect x="176" y="366" width="393" height="393" fill="#8175a3" fill-opacity="0.17" transform="rotate(11 372 562)"/>
-<rect width="600" height="600" filter="url(#grain)" opacity="0.5"/>
-<rect x="24" y="24" width="552" height="552" fill="none" stroke="#D4AF37" stroke-opacity="0.35"/>
-<text x="48" y="500" font-family="Playfair Display, Georgia, serif" font-size="44" font-weight="600" fill="#F5F3EF">PYRAMID SCHEME</text>
-<text x="48" y="540" font-family="Montserrat, Arial, sans-serif" font-size="14" letter-spacing="4" fill="#D4AF37">CASH PHARAOH &#183; ALBUM</text>
-</svg>

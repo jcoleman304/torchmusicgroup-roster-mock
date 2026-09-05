@@ -9,7 +9,7 @@
 All roster content lives in `roster.json`. Add, remove, or rewrite artists there; `roster.html`, `artist.html`, and the homepage featured strip render from it.
 
 - `photo`: drop a JPG into `images/` and point to it. Placeholder portraits are in `images/mock/`.
-- `real`: `true` for actual TMG artists / prospects, `false` for imagined ones (shows an "Imagined artist" note).
+- `real`: `true` for actual TMG artists / prospects. Set `false` to add an imagined artist (shows an "Imagined artist" note).
 - `status`: `Flagship` · `New Signing` · `In Development` · `Publishing`
 - `division`: `Management` · `Publishing` · `Development`
 

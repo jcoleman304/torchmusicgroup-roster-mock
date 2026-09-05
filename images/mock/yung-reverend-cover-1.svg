@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
-<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2c0e0b"/><stop offset="1" stop-color="#070707"/></linearGradient>
-<filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="2"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 0.16"/></feComponentTransfer></filter></defs>
-<rect width="600" height="600" fill="url(#g)"/><rect x="-38" y="332" width="417" height="417" fill="#B3382C" fill-opacity="0.18" transform="rotate(-9 170 540)"/><rect x="416" y="253" width="258" height="258" fill="#c3665c" fill-opacity="0.12" transform="rotate(-10 545 382)"/><rect x="195" y="350" width="339" height="339" fill="#B3382C" fill-opacity="0.14" transform="rotate(1 364 519)"/><rect x="367" y="249" width="355" height="355" fill="#c3665c" fill-opacity="0.10" transform="rotate(30 544 426)"/>
-<rect width="600" height="600" filter="url(#grain)" opacity="0.5"/>
-<rect x="24" y="24" width="552" height="552" fill="none" stroke="#D4AF37" stroke-opacity="0.35"/>
-<text x="48" y="500" font-family="Playfair Display, Georgia, serif" font-size="44" font-weight="600" fill="#F5F3EF">SUNDAY SERVICE</text>
-<text x="48" y="540" font-family="Montserrat, Arial, sans-serif" font-size="14" letter-spacing="4" fill="#D4AF37">YUNG REVEREND &#183; SINGLE</text>
-</svg>

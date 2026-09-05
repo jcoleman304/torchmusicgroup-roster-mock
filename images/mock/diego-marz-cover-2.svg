@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
-<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#072327"/><stop offset="1" stop-color="#070707"/></linearGradient>
-<filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="2"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 0.16"/></feComponentTransfer></filter></defs>
-<rect width="600" height="600" fill="url(#g)"/><rect x="392" y="-67" width="285" height="285" fill="#1C8C9E" fill-opacity="0.13" transform="rotate(-25 534 75)"/><rect x="13" y="477" width="394" height="394" fill="#52a5b2" fill-opacity="0.12" transform="rotate(23 210 674)"/><rect x="463" y="179" width="334" height="334" fill="#1C8C9E" fill-opacity="0.22" transform="rotate(5 630 346)"/><rect x="60" y="-47" width="387" height="387" fill="#52a5b2" fill-opacity="0.16" transform="rotate(-15 253 146)"/>
-<rect width="600" height="600" filter="url(#grain)" opacity="0.5"/>
-<rect x="24" y="24" width="552" height="552" fill="none" stroke="#D4AF37" stroke-opacity="0.35"/>
-<text x="48" y="500" font-family="Playfair Display, Georgia, serif" font-size="44" font-weight="600" fill="#F5F3EF">NO DUERMO</text>
-<text x="48" y="540" font-family="Montserrat, Arial, sans-serif" font-size="14" letter-spacing="4" fill="#D4AF37">DIEGO MARZ &#183; EP</text>
-</svg>

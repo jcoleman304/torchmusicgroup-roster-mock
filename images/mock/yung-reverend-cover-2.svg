@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
-<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2c0e0b"/><stop offset="1" stop-color="#070707"/></linearGradient>
-<filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="2"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 0.16"/></feComponentTransfer></filter></defs>
-<rect width="600" height="600" fill="url(#g)"/><rect x="-93" y="3" width="256" height="256" fill="#B3382C" fill-opacity="0.15" transform="rotate(-9 35 131)"/><rect x="89" y="-37" width="232" height="232" fill="#c3665c" fill-opacity="0.12" transform="rotate(0 205 79)"/><rect x="388" y="488" width="244" height="244" fill="#B3382C" fill-opacity="0.22" transform="rotate(-3 510 610)"/><rect x="348" y="-65" width="319" height="319" fill="#c3665c" fill-opacity="0.10" transform="rotate(-10 507 94)"/>
-<rect width="600" height="600" filter="url(#grain)" opacity="0.5"/>
-<rect x="24" y="24" width="552" height="552" fill="none" stroke="#D4AF37" stroke-opacity="0.35"/>
-<text x="48" y="500" font-family="Playfair Display, Georgia, serif" font-size="44" font-weight="600" fill="#F5F3EF">BROAD STREET FREE…</text>
-<text x="48" y="540" font-family="Montserrat, Arial, sans-serif" font-size="14" letter-spacing="4" fill="#D4AF37">YUNG REVEREND &#183; SINGLE</text>
-</svg>

@@ -58,46 +58,6 @@
       "releases": []
     },
     {
-      "slug": "nektunez",
-      "name": "Nektunez",
-      "real": true,
-      "status": "New Signing",
-      "division": "Management",
-      "genre": "Afrobeats · Amapiano",
-      "hometown": "Accra, Ghana",
-      "descriptor": "The producer who turned a chant into a global record.",
-      "bio": [
-        "Nektunez is the Ghanaian producer and artist behind the Ameno Amapiano remix that took over TikTok, clubs, and stadium speakers worldwide. He works at the intersection of Afrobeats, amapiano, and dance, and he makes records that travel.",
-        "As the newest addition to the Torch roster, Nektunez brings a global audience and a production catalog that opens the label to the African diaspora market, cross-continent collaborations, and sync."
-      ],
-      "sound": [
-        "Afrobeats",
-        "Amapiano",
-        "Afro-House",
-        "Global Dance"
-      ],
-      "photo": "images/mock/nektunez.svg",
-      "accent": "#1FA27A",
-      "links": {
-        "spotify": "https://open.spotify.com/search/Nektunez",
-        "instagram": "https://www.instagram.com/nektunez/"
-      },
-      "stats": {
-        "monthly_listeners": "2.4M",
-        "followers": "310K",
-        "top_market": "Lagos · London · NYC"
-      },
-      "since": 2026,
-      "releases": [
-        {
-          "title": "Ameno Amapiano (Remix)",
-          "type": "Single",
-          "date": "2022-01-14",
-          "cover": "images/mock/nektunez-cover-1.svg"
-        }
-      ]
-    },
-    {
       "slug": "obai",
       "name": "Obai",
       "real": true,

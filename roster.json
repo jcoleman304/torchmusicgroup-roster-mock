@@ -190,6 +190,58 @@
       ]
     },
     {
+      "slug": "1f-flippa",
+      "name": "1F Flippa",
+      "real": true,
+      "status": "New Signing",
+      "division": "Management",
+      "genre": "Rap",
+      "hometown": "Savannah, GA",
+      "descriptor": "From the NFL to the booth. Savannah rap with discipline, positivity, and a chain that says the name.",
+      "bio": [
+        "1F Flippa came to rap the long way: a former NFL player from Savannah, Georgia who traded the field for the booth and brought the work ethic with him. His catalog runs from the Best of Flip project to a steady stream of singles including Talking Crazy, Vezzo Flow, Roll On, and Show Me, alongside his Solo Rockin clothing brand.",
+        "On the Torch roster, Flippa is the label's Savannah connection and a proven independent operator: an artist with a story, a brand, and a live show, who needs infrastructure more than a reinvention. Georgia to Georgia, coast to the capital."
+      ],
+      "sound": [
+        "Savannah Rap",
+        "Southern",
+        "Motivational",
+        "Trap"
+      ],
+      "photo": "images/1f-flippa-web.jpg",
+      "accent": "#B3382C",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/5AzBSEuvlzvEintWZyLunc",
+        "instagram": "#"
+      },
+      "stats": {
+        "monthly_listeners": "—",
+        "followers": "—",
+        "top_market": "Savannah · Atlanta · Jacksonville"
+      },
+      "since": 2026,
+      "releases": [
+        {
+          "title": "Show Me",
+          "type": "Single",
+          "date": "2026-01-01",
+          "cover": "images/mock/1f-flippa-cover-1.svg"
+        },
+        {
+          "title": "Roll On",
+          "type": "Single",
+          "date": "2026-01-01",
+          "cover": "images/mock/1f-flippa-cover-2.svg"
+        },
+        {
+          "title": "Best of Flip",
+          "type": "Album",
+          "date": "2022-01-01",
+          "cover": "images/mock/1f-flippa-cover-3.svg"
+        }
+      ]
+    },
+    {
       "slug": "ivory-lane",
       "name": "Ivory Lane",
       "real": false,

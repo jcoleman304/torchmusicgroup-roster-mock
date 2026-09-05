@@ -58,7 +58,7 @@ async function renderRosterGrid() {
     `).join('');
 
     const count = document.getElementById('roster-count');
-    if (count) count.textContent = `${artists.length} artists · ${artists.filter(a => a.real).length} signed or in conversation · ${artists.filter(a => !a.real).length} imagined`;
+    if (count) { const im = artists.filter(a => !a.real).length; count.textContent = `${artists.length} artists` + (im ? ` · ${artists.length - im} real · ${im} imagined` : ''); }
 
     // Division summary
     const divs = document.getElementById('roster-divisions');

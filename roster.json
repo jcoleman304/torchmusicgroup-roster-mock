@@ -1,0 +1,529 @@
+{
+  "_readme": "MOCK ROSTER DATA. Edit this file to add, remove, or rewrite imagined artists. Fields: slug, name, real (true = actual TMG artist), status (Flagship | New Signing | In Development | Publishing), division (Management | Publishing | Development), genre, hometown, descriptor, bio[], sound[], photo, accent, links{}, stats{} (optional), releases[] (mock), since.",
+  "artists": [
+    {
+      "slug": "rnb-foemob",
+      "name": "RNB.FOEMOB",
+      "real": true,
+      "status": "Flagship",
+      "division": "Management",
+      "genre": "Rap",
+      "hometown": "Houston, TX",
+      "descriptor": "Texas rap with a chip on its shoulder and a hook for every block.",
+      "bio": [
+        "RNB.FOEMOB is the anchor of the Torch roster. A Houston-bred rapper whose catalog moves from street records to radio-ready melodies without losing the accent, Foe has built his audience one release at a time, on his own terms.",
+        "After the Square Bidnez album in late 2025, 2026 has been a single-a-month campaign: Come Up, Big On Big, Steak With Lobster, Tonka Truck, ROUND 3. Each record is a chapter, and the run is the story."
+      ],
+      "sound": [
+        "Texas Rap",
+        "Melodic Trap",
+        "Slab Music",
+        "Southern"
+      ],
+      "photo": "images/foemob-web.jpg",
+      "accent": "#D4AF37",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/3YrSdCCaG11xDOpXYJdGl3",
+        "instagram": "https://www.instagram.com/rnb.fo3mob/"
+      },
+      "since": 2024,
+      "releases": []
+    },
+    {
+      "slug": "dke-author",
+      "name": "DKE Author / PutMeOnDK",
+      "real": true,
+      "status": "Flagship",
+      "division": "Publishing",
+      "genre": "Rap · Songwriting",
+      "hometown": "Atlanta, GA",
+      "descriptor": "The pen behind the hits and the artist in front of them.",
+      "bio": [
+        "DKE Author records under his own name and writes for everyone else as PutMeOnDK. His writing credits run from Latto and Cardi B (Put It On Da Floor Again) to Mello Buckzz and Andraya, and his solo catalog carries the same instinct for melody that makes his placements land.",
+        "At Torch, DK sits at the center of the publishing pillar: a working writer with a growing artist project, and proof that the two careers feed each other."
+      ],
+      "sound": [
+        "Melodic Rap",
+        "Topline",
+        "Hooks",
+        "R&B"
+      ],
+      "photo": "images/dke-author-web.jpg",
+      "accent": "#D4AF37",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/2tJG35evsfk9E2i6Yj01Im",
+        "instagram": "https://www.instagram.com/dke_author/"
+      },
+      "since": 2024,
+      "releases": []
+    },
+    {
+      "slug": "nektunez",
+      "name": "Nektunez",
+      "real": true,
+      "status": "New Signing",
+      "division": "Management",
+      "genre": "Afrobeats · Amapiano",
+      "hometown": "Accra, Ghana",
+      "descriptor": "The producer who turned a chant into a global record.",
+      "bio": [
+        "Nektunez is the Ghanaian producer and artist behind the Ameno Amapiano remix that took over TikTok, clubs, and stadium speakers worldwide. He works at the intersection of Afrobeats, amapiano, and dance, and he makes records that travel.",
+        "As the newest addition to the Torch roster, Nektunez brings a global audience and a production catalog that opens the label to the African diaspora market, cross-continent collaborations, and sync."
+      ],
+      "sound": [
+        "Afrobeats",
+        "Amapiano",
+        "Afro-House",
+        "Global Dance"
+      ],
+      "photo": "images/mock/nektunez.svg",
+      "accent": "#1FA27A",
+      "links": {
+        "spotify": "https://open.spotify.com/search/Nektunez",
+        "instagram": "https://www.instagram.com/nektunez/"
+      },
+      "stats": {
+        "monthly_listeners": "2.4M",
+        "followers": "310K",
+        "top_market": "Lagos · London · NYC"
+      },
+      "since": 2026,
+      "releases": [
+        {
+          "title": "Ameno Amapiano (Remix)",
+          "type": "Single",
+          "date": "2022-01-14",
+          "cover": "images/mock/nektunez-cover-1.svg"
+        }
+      ]
+    },
+    {
+      "slug": "obai",
+      "name": "Obai",
+      "real": true,
+      "status": "New Signing",
+      "division": "Management",
+      "genre": "R&B · Pop",
+      "hometown": "Phoenix, AZ",
+      "descriptor": "Gen-Z R&B with a pop instinct and a Sudanese heartbeat.",
+      "bio": [
+        "Obai is a Phoenix-raised R&B artist who grew up between the Sudanese records his parents played at home and the Bryson Tiller, Drake, and Weeknd era he came of age in. His debut single The River found a national audience after a Grey's Anatomy placement, and his debut EP svnteen framed him as one of the most melodic voices of his generation.",
+        "On the Torch roster, Obai is the bridge between the R&B and pop lanes: a writer-first artist with sync appeal, a live show already road-tested opening for Bryson Tiller, and room to grow into an album artist."
+      ],
+      "sound": [
+        "R&B",
+        "Pop",
+        "Alt-Pop",
+        "Sudanese Roots"
+      ],
+      "photo": "images/obai-web.jpg",
+      "accent": "#7A5C3A",
+      "links": {
+        "spotify": "https://open.spotify.com/search/Obai",
+        "instagram": "https://www.instagram.com/obaimusic/"
+      },
+      "stats": {
+        "monthly_listeners": "—",
+        "followers": "—",
+        "top_market": "Phoenix · LA · NYC"
+      },
+      "since": 2026,
+      "releases": [
+        {
+          "title": "svnteen",
+          "type": "EP",
+          "date": "2024-01-01",
+          "cover": "images/mock/obai-cover-1.svg"
+        },
+        {
+          "title": "The River",
+          "type": "Single",
+          "date": "2023-01-01",
+          "cover": "images/mock/obai-cover-2.svg"
+        }
+      ]
+    },
+    {
+      "slug": "dejhha",
+      "name": "Dejhha",
+      "real": true,
+      "status": "New Signing",
+      "division": "Development",
+      "genre": "R&B",
+      "hometown": "",
+      "descriptor": "Unfiltered R&B. Sings it the way she would say it to your face.",
+      "bio": [
+        "Dejhha makes R&B with no filter: relationship records that read like text messages she actually sent. Her independent run of singles across 2024 and 2025, including F**k Love, What He Like, and Fakers, built a core audience on honesty and attitude before any label was in the room.",
+        "TMG brought Dejhha into the roster as a development signing with a clear thesis: the voice and the pen are already there, and the infrastructure is what turns a following into a career."
+      ],
+      "sound": [
+        "R&B",
+        "Trap-Soul",
+        "Toxic R&B",
+        "Melodic"
+      ],
+      "photo": "images/dejhha-web.jpg",
+      "accent": "#B8742F",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/7yfcD7byio7Sw5RaF0Dnc5",
+        "instagram": "#"
+      },
+      "stats": {
+        "monthly_listeners": "—",
+        "followers": "—",
+        "top_market": "—"
+      },
+      "since": 2026,
+      "releases": [
+        {
+          "title": "Fakers",
+          "type": "Single",
+          "date": "2025-06-01",
+          "cover": "images/mock/dejhha-cover-1.svg"
+        },
+        {
+          "title": "What He Like",
+          "type": "Single",
+          "date": "2024-08-01",
+          "cover": "images/mock/dejhha-cover-2.svg"
+        }
+      ]
+    },
+    {
+      "slug": "ivory-lane",
+      "name": "Ivory Lane",
+      "real": false,
+      "status": "In Development",
+      "division": "Development",
+      "genre": "Alt-R&B",
+      "hometown": "Houston, TX",
+      "descriptor": "Velvet vocals over left-of-center production. Late-night music for people who think too much.",
+      "bio": [
+        "Ivory Lane writes like a diarist and sings like she is trying not to wake anyone up. Raised on Houston chopped-and-screwed tapes and her mother's Sade records, she landed on a sound that sits between the two: slow, warm, and slightly out of focus.",
+        "TMG brought Ivory into the development program in early 2026. The plan is patient: a three-song EP cut at Torch ATL, a visual identity built with a single photographer, and no release until the songs earn it."
+      ],
+      "sound": [
+        "Alt-R&B",
+        "Neo-Soul",
+        "Bedroom Pop",
+        "Screwed"
+      ],
+      "photo": "images/mock/ivory-lane.svg",
+      "accent": "#8B5E83",
+      "links": {
+        "spotify": "#",
+        "instagram": "#"
+      },
+      "stats": {
+        "monthly_listeners": "48K",
+        "followers": "22K",
+        "top_market": "Houston · Dallas · Atlanta"
+      },
+      "since": 2026,
+      "releases": [
+        {
+          "title": "Slow Hours",
+          "type": "Single",
+          "date": "2026-07-10",
+          "cover": "images/mock/ivory-lane-cover-1.svg"
+        },
+        {
+          "title": "Passenger Side",
+          "type": "Single",
+          "date": "2026-04-18",
+          "cover": "images/mock/ivory-lane-cover-2.svg"
+        }
+      ]
+    },
+    {
+      "slug": "yung-reverend",
+      "name": "Yung Reverend",
+      "real": false,
+      "status": "New Signing",
+      "division": "Management",
+      "genre": "Rap",
+      "hometown": "Philadelphia, PA",
+      "descriptor": "Street sermons from North Philly. Every verse sounds like a warning and a promise.",
+      "bio": [
+        "Yung Reverend earned his name the honest way: he raps like someone who has seen the ending and wants you to change yours. A North Philadelphia native with a preacher's cadence and a drill producer's ear, he built a local following off freestyle clips before a single official release.",
+        "TMG signed Reverend to management in 2026, the label's first Philadelphia artist and a full-circle moment for a founder from the same city. First order of business: a proper debut mixtape and a run of shows across the I-95 corridor."
+      ],
+      "sound": [
+        "Philly Rap",
+        "Drill",
+        "Storytelling",
+        "East Coast"
+      ],
+      "photo": "images/mock/yung-reverend.svg",
+      "accent": "#B3382C",
+      "links": {
+        "spotify": "#",
+        "instagram": "#"
+      },
+      "stats": {
+        "monthly_listeners": "115K",
+        "followers": "64K",
+        "top_market": "Philadelphia · NYC · Baltimore"
+      },
+      "since": 2026,
+      "releases": [
+        {
+          "title": "Sunday Service",
+          "type": "Single",
+          "date": "2026-08-22",
+          "cover": "images/mock/yung-reverend-cover-1.svg"
+        },
+        {
+          "title": "Broad Street Freestyle",
+          "type": "Single",
+          "date": "2026-06-05",
+          "cover": "images/mock/yung-reverend-cover-2.svg"
+        }
+      ]
+    },
+    {
+      "slug": "naomi-sol",
+      "name": "Naomi Sol",
+      "real": false,
+      "status": "In Development",
+      "division": "Development",
+      "genre": "Pop · R&B",
+      "hometown": "Los Angeles, CA",
+      "descriptor": "A pop voice with R&B bones. Built for the big room and the earbuds at the same time.",
+      "bio": [
+        "Naomi Sol is the most commercial voice on the Torch roster and the one furthest from finished. A 21-year-old from Inglewood with a gospel background and a pop instinct, she writes hooks first and figures out the rest later.",
+        "The development plan is a true build: vocal coaching, a writing camp at Torch ATL with the publishing roster, and a first single targeted for early 2027. TMG's job is to make sure the first impression is the right one."
+      ],
+      "sound": [
+        "Pop",
+        "R&B",
+        "Dance-Pop",
+        "Gospel Roots"
+      ],
+      "photo": "images/mock/naomi-sol.svg",
+      "accent": "#2E6FBF",
+      "links": {
+        "spotify": "#",
+        "instagram": "#"
+      },
+      "stats": {
+        "monthly_listeners": "12K",
+        "followers": "38K",
+        "top_market": "Los Angeles · Atlanta · Chicago"
+      },
+      "since": 2026,
+      "releases": []
+    },
+    {
+      "slug": "cash-pharaoh",
+      "name": "Cash Pharaoh",
+      "real": false,
+      "status": "New Signing",
+      "division": "Management",
+      "genre": "Trap",
+      "hometown": "Memphis, TN",
+      "descriptor": "Memphis trap with a king's posture. Loud, cold, and impossible to ignore.",
+      "bio": [
+        "Cash Pharaoh makes the kind of records that get played from car speakers before they get played on radio. A South Memphis native with a baritone delivery and a taste for horror-movie production, he had two regional hits and zero infrastructure before TMG.",
+        "Torch signed Pharaoh to management in 2026 to give a proven independent act the business it was missing: distribution strategy, touring, brand partnerships, and a real release calendar."
+      ],
+      "sound": [
+        "Memphis Trap",
+        "Dark Trap",
+        "Crunk Revival",
+        "Southern"
+      ],
+      "photo": "images/mock/cash-pharaoh.svg",
+      "accent": "#5B4B8A",
+      "links": {
+        "spotify": "#",
+        "instagram": "#"
+      },
+      "stats": {
+        "monthly_listeners": "430K",
+        "followers": "190K",
+        "top_market": "Memphis · Atlanta · Houston"
+      },
+      "since": 2026,
+      "releases": [
+        {
+          "title": "Pyramid Scheme",
+          "type": "Album",
+          "date": "2026-05-15",
+          "cover": "images/mock/cash-pharaoh-cover-1.svg"
+        },
+        {
+          "title": "Tomb Talk",
+          "type": "Single",
+          "date": "2026-08-01",
+          "cover": "images/mock/cash-pharaoh-cover-2.svg"
+        }
+      ]
+    },
+    {
+      "slug": "the-silhouettes",
+      "name": "The Silhouettes",
+      "real": false,
+      "status": "In Development",
+      "division": "Development",
+      "genre": "Soul · Duo",
+      "hometown": "Nashville, TN",
+      "descriptor": "Two voices, one microphone. Analog soul recorded the way it used to be.",
+      "bio": [
+        "The Silhouettes are Mara and Jules, a Nashville duo who met singing background for other people and decided to stop. Their sound is live-band soul with modern low end: Muscle Shoals arrangements, Atlanta drums.",
+        "TMG signed the duo to a development and publishing deal in 2026. They write for the roster and for themselves, and their first project will be tracked live to tape at Torch ATL."
+      ],
+      "sound": [
+        "Soul",
+        "Live Band",
+        "Harmony",
+        "Retro-Modern"
+      ],
+      "photo": "images/mock/the-silhouettes.svg",
+      "accent": "#C07A2B",
+      "links": {
+        "spotify": "#",
+        "instagram": "#"
+      },
+      "stats": {
+        "monthly_listeners": "31K",
+        "followers": "15K",
+        "top_market": "Nashville · Atlanta · London"
+      },
+      "since": 2026,
+      "releases": [
+        {
+          "title": "Half Light",
+          "type": "Single",
+          "date": "2026-06-20",
+          "cover": "images/mock/the-silhouettes-cover-1.svg"
+        }
+      ]
+    },
+    {
+      "slug": "diego-marz",
+      "name": "Diego Marz",
+      "real": false,
+      "status": "New Signing",
+      "division": "Management",
+      "genre": "Latin Trap · Reggaetón",
+      "hometown": "Miami, FL",
+      "descriptor": "Bilingual, bicoastal, and built for the club. Miami's next export.",
+      "bio": [
+        "Diego Marz switches between Spanish and English mid-bar and never loses the pocket. Born in Hialeah to Cuban and Dominican parents, he came up in the Miami club circuit and turned a string of DJ-driven records into a real fanbase across Florida and Puerto Rico.",
+        "Torch signed Diego to management in 2026 as the label's first Latin artist, with a plan built around cross-genre features from the roster and a push into the U.S. Latin and Caribbean markets."
+      ],
+      "sound": [
+        "Latin Trap",
+        "Reggaetón",
+        "Dembow",
+        "Club"
+      ],
+      "photo": "images/mock/diego-marz.svg",
+      "accent": "#1C8C9E",
+      "links": {
+        "spotify": "#",
+        "instagram": "#"
+      },
+      "stats": {
+        "monthly_listeners": "860K",
+        "followers": "275K",
+        "top_market": "Miami · San Juan · Mexico City"
+      },
+      "since": 2026,
+      "releases": [
+        {
+          "title": "Calle 8",
+          "type": "Single",
+          "date": "2026-07-31",
+          "cover": "images/mock/diego-marz-cover-1.svg"
+        },
+        {
+          "title": "No Duermo",
+          "type": "EP",
+          "date": "2026-03-13",
+          "cover": "images/mock/diego-marz-cover-2.svg"
+        }
+      ]
+    },
+    {
+      "slug": "kenji-wells",
+      "name": "Kenji Wells",
+      "real": false,
+      "status": "Publishing",
+      "division": "Publishing",
+      "genre": "Producer · Songwriter",
+      "hometown": "Atlanta, GA",
+      "descriptor": "The producer in the room when the record gets made. Beats, toplines, and finishing.",
+      "bio": [
+        "Kenji Wells is a producer and songwriter with a catalog of placements across rap and R&B, and a reputation for finishing records other people start. He works out of Torch ATL and is the first call for the roster's writing camps.",
+        "Signed to TMG Publishing in 2026, Kenji represents the third pillar of the company: songwriters and producers whose work compounds across every artist on the roster."
+      ],
+      "sound": [
+        "Production",
+        "Topline",
+        "R&B",
+        "Trap"
+      ],
+      "photo": "images/mock/kenji-wells.svg",
+      "accent": "#3C7A4E",
+      "links": {
+        "spotify": "#",
+        "instagram": "#"
+      },
+      "stats": {
+        "monthly_listeners": "—",
+        "followers": "41K",
+        "top_market": "Placements: 14"
+      },
+      "since": 2026,
+      "releases": [
+        {
+          "title": "Passenger Side (Ivory Lane)",
+          "type": "Producer",
+          "date": "2026-04-18",
+          "cover": "images/mock/ivory-lane-cover-2.svg"
+        },
+        {
+          "title": "Half Light (The Silhouettes)",
+          "type": "Co-writer",
+          "date": "2026-06-20",
+          "cover": "images/mock/the-silhouettes-cover-1.svg"
+        }
+      ]
+    },
+    {
+      "slug": "ava-renee",
+      "name": "Ava Renee",
+      "real": false,
+      "status": "In Development",
+      "division": "Development",
+      "genre": "Country-Soul",
+      "hometown": "Macon, GA",
+      "descriptor": "Georgia country with a soul singer's chest voice. Otis Redding's hometown, Beyoncé's playbook.",
+      "bio": [
+        "Ava Renee sings country music the way it sounded before the genre forgot where it came from. A Macon native who grew up between the church choir and her father's truck radio, she writes plain-spoken songs about Georgia and delivers them with a soul singer's power.",
+        "TMG brought Ava into development in 2026 as a deliberate bet on where country and R&B are converging. The plan: a Nashville co-write trip, a live session at Torch ATL, and a debut single with a Black country audience in mind."
+      ],
+      "sound": [
+        "Country",
+        "Soul",
+        "Americana",
+        "Georgia"
+      ],
+      "photo": "images/mock/ava-renee.svg",
+      "accent": "#9A6B2F",
+      "links": {
+        "spotify": "#",
+        "instagram": "#"
+      },
+      "stats": {
+        "monthly_listeners": "19K",
+        "followers": "27K",
+        "top_market": "Atlanta · Nashville · Charlotte"
+      },
+      "since": 2026,
+      "releases": []
+    }
+  ]
+}

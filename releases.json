@@ -1,0 +1,146 @@
+{
+  "last_updated": "2026-09-05T16:33:19.090Z",
+  "excluded_ids": [
+    {
+      "id": "2Qn9UhVCEfHygCzFH69oP1",
+      "title": "Back 2 Back",
+      "artist": "RNB.FOEMOB",
+      "removed_on": "2026-05-07"
+    },
+    {
+      "id": "3sSINn8gqgicH8GlxfkK63",
+      "title": "Square Bidnez (Swishahouse Remix)",
+      "artist": "RNB.FOEMOB",
+      "removed_on": "2026-05-07"
+    },
+    {
+      "id": "0sV6J2qpTn19K9ODJXrKWt",
+      "title": "Warzone",
+      "artist": "RNB.FOEMOB",
+      "removed_on": "2026-05-07"
+    },
+    {
+      "id": "07uZgs5B6tFthJghGfXGKD",
+      "title": "THE YOUNGEST TO DO IT DELUXE",
+      "artist": "RNB.FOEMOB",
+      "removed_on": "2026-05-07"
+    }
+  ],
+  "releases": [
+    {
+      "id": "5NKoHZF8yPBNF67aQGDzFN",
+      "title": "ROUND 3",
+      "artist": "RNB.FOEMOB",
+      "type": "single",
+      "release_date": "2026-08-11",
+      "cover_url": "https://i.scdn.co/image/ab67616d0000b27305e4c1c4833b8a9cd0b0b87e",
+      "spotify_url": "https://open.spotify.com/album/5NKoHZF8yPBNF67aQGDzFN",
+      "apple_url": null,
+      "subtitle": null
+    },
+    {
+      "id": "03qoXPvibs4AJEwrMOICn4",
+      "title": "Tonka Truck (feat. Big Yavo)",
+      "artist": "RNB.FOEMOB",
+      "type": "single",
+      "release_date": "2026-06-26",
+      "cover_url": "https://i.scdn.co/image/ab67616d0000b27338ae81838a5eb1f99fa1b81e",
+      "spotify_url": "https://open.spotify.com/album/03qoXPvibs4AJEwrMOICn4",
+      "apple_url": null,
+      "subtitle": null
+    },
+    {
+      "id": "0YvXDTZLOl8dGkF2oGXQ2S",
+      "title": "Steak With Lobster (feat. Fenix Flexin & Diego Ave)",
+      "artist": "RNB.FOEMOB",
+      "type": "single",
+      "release_date": "2026-05-20",
+      "cover_url": "https://i.scdn.co/image/ab67616d0000b273cf9bd312113f43ab1cbb970e",
+      "spotify_url": "https://open.spotify.com/album/0YvXDTZLOl8dGkF2oGXQ2S",
+      "apple_url": null,
+      "subtitle": null
+    },
+    {
+      "id": "4vCd6u0wy9Yt3rRSaphZ2X",
+      "title": "Big On Big",
+      "artist": "RNB.FOEMOB",
+      "type": "single",
+      "release_date": "2026-04-29",
+      "cover_url": "https://i.scdn.co/image/ab67616d0000b2735c93beaad049f8d604392c5f",
+      "spotify_url": "https://open.spotify.com/album/4vCd6u0wy9Yt3rRSaphZ2X",
+      "apple_url": null,
+      "subtitle": null
+    },
+    {
+      "id": "6ekc7eZD0wF7ckuQgIevEJ",
+      "title": "Come Up (feat. Headhuncho Amir)",
+      "artist": "RNB.FOEMOB",
+      "type": "single",
+      "release_date": "2026-04-07",
+      "cover_url": "https://i.scdn.co/image/ab67616d0000b2735774123a80d43dec88405e8e",
+      "spotify_url": "https://open.spotify.com/album/6ekc7eZD0wF7ckuQgIevEJ",
+      "apple_url": null,
+      "subtitle": null
+    },
+    {
+      "id": "0ZZXvaxfAh7KSw7sNkpo8s",
+      "title": "Square Bidnez",
+      "artist": "RNB.FOEMOB",
+      "type": "album",
+      "release_date": "2025-11-14",
+      "cover_url": "https://i.scdn.co/image/ab67616d0000b2730de9139cf4b641eba90c4843",
+      "spotify_url": "https://open.spotify.com/album/0ZZXvaxfAh7KSw7sNkpo8s",
+      "apple_url": null,
+      "subtitle": "Album"
+    },
+    {
+      "id": "4M0RWZMmOdAyjlmiWPoqZL",
+      "title": "FOEMOB OFF THE LEASH",
+      "artist": "RNB.FOEMOB",
+      "type": "album",
+      "release_date": "2023-05-30",
+      "cover_url": "https://i.scdn.co/image/ab67616d0000b273251372f3e5438a924086f419",
+      "spotify_url": "https://open.spotify.com/album/4M0RWZMmOdAyjlmiWPoqZL",
+      "apple_url": null,
+      "subtitle": "Album"
+    }
+  ],
+  "manual_releases": [
+    {
+      "id": "sapphire-moon",
+      "title": "Sapphire Moon",
+      "artist": "Andraya",
+      "writers": "PutMeOnDK",
+      "type": "single",
+      "release_date": "2026-01-12",
+      "cover_url": "https://i.scdn.co/image/ab67616d0000b273d7383fe8ce4355005cd3ea8b",
+      "spotify_url": "https://open.spotify.com/track/0sDwY2CnTctlOtWyWdbTiJ",
+      "apple_url": null,
+      "subtitle": null
+    },
+    {
+      "id": "he-want-him-a-me",
+      "title": "He Want Him a Me",
+      "artist": "Mello Buckzz",
+      "writers": "PutMeOnDK",
+      "type": "single",
+      "release_date": "2026-03-26",
+      "cover_url": "https://i.scdn.co/image/ab67616d0000b27392bea5f089948ba3cda9f342",
+      "spotify_url": "https://open.spotify.com/album/7KeBnPlGjzBMOz7X2QxyOa",
+      "apple_url": null,
+      "subtitle": null
+    },
+    {
+      "id": "put-it-on-da-floor-again",
+      "title": "Put It On Da Floor Again (feat. Cardi B)",
+      "artist": "Latto",
+      "writers": "PutMeOnDK",
+      "type": "single",
+      "release_date": "2023-06-02",
+      "cover_url": "https://i.scdn.co/image/ab67616d0000b2734b9f1fe8e25964302c5752b2",
+      "spotify_url": "https://open.spotify.com/track/6c6WmIHcHlhccEwSFBhzNa",
+      "apple_url": null,
+      "subtitle": null
+    }
+  ]
+}

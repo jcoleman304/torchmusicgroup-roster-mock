@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+<defs>
+ <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#143155"/><stop offset="0.55" stop-color="#081322"/><stop offset="1" stop-color="#050505"/></linearGradient>
+ <radialGradient id="glow" cx="0.5" cy="0.42" r="0.6"><stop offset="0" stop-color="#2E6FBF" stop-opacity="0.35"/><stop offset="1" stop-color="#2E6FBF" stop-opacity="0"/></radialGradient>
+ <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 0.18"/></feComponentTransfer></filter>
+</defs>
+<rect width="600" height="800" fill="url(#g)"/>
+<rect width="600" height="800" fill="url(#glow)"/>
+<circle cx="354" cy="519" r="161" fill="none" stroke="#2E6FBF" stroke-opacity="0.06" stroke-width="1"/><circle cx="209" cy="650" r="119" fill="none" stroke="#2E6FBF" stroke-opacity="0.11" stroke-width="1"/><circle cx="372" cy="255" r="76" fill="none" stroke="#2E6FBF" stroke-opacity="0.10" stroke-width="1"/><circle cx="229" cy="256" r="73" fill="none" stroke="#2E6FBF" stroke-opacity="0.08" stroke-width="1"/><circle cx="177" cy="531" r="126" fill="none" stroke="#2E6FBF" stroke-opacity="0.08" stroke-width="1"/>
+<rect width="600" height="800" filter="url(#grain)" opacity="0.5"/>
+<rect x="28" y="28" width="544" height="744" fill="none" stroke="#D4AF37" stroke-opacity="0.45" stroke-width="1"/>
+<text x="300" y="420" text-anchor="middle" font-family="Playfair Display, Georgia, 'Times New Roman', serif" font-size="230" font-weight="600" fill="#F5F3EF" fill-opacity="0.92" letter-spacing="-8">NS</text>
+<text x="300" y="700" text-anchor="middle" font-family="Montserrat, 'Helvetica Neue', Arial, sans-serif" font-size="16" letter-spacing="6" fill="#D4AF37">POP &#183; R&amp;B</text>
+<text x="300" y="736" text-anchor="middle" font-family="Montserrat, 'Helvetica Neue', Arial, sans-serif" font-size="11" letter-spacing="4" fill="#F5F3EF" fill-opacity="0.45">PHOTO TO COME</text>
+</svg>

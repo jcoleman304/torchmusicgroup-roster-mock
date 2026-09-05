@@ -1,0 +1,135 @@
+/* ═══════════════════════════════════════════════
+   TMG ROSTER MOCK — additive styles (loaded after styles.css)
+   ═══════════════════════════════════════════════ */
+
+/* Mock badge */
+.mock-pill {
+    position: fixed; right: 20px; bottom: 20px; z-index: 2000;
+    font-family: var(--sans); font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase;
+    color: var(--gold); background: rgba(0,0,0,0.88); border: 1px solid rgba(212,175,55,0.5);
+    padding: 9px 14px; text-decoration: none; backdrop-filter: blur(8px);
+}
+.mock-pill:hover { background: var(--gold); color: var(--black); }
+
+/* Roster header */
+.roster-intro { max-width: 720px; margin: 0 auto 8px; text-align: center; }
+.roster-intro .section-text { color: #444; margin: 0 auto; }
+.roster-count { font-family: var(--sans); font-size: 11px; letter-spacing: 3px; text-transform: uppercase; color: var(--gold-dark); margin-top: 16px; }
+
+/* Filters */
+.roster-filters { display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; margin-top: 40px; }
+.roster-filter {
+    font-family: var(--sans); font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase;
+    color: #555; background: transparent; border: 1px solid rgba(0,0,0,0.15); padding: 9px 18px;
+    cursor: pointer; transition: all 0.3s ease;
+}
+.roster-filter:hover { border-color: var(--gold); color: var(--gold-dark); }
+.roster-filter.active { background: var(--black); border-color: var(--black); color: var(--gold); }
+
+/* Wider grid for a bigger roster */
+.roster-grid.roster-grid--mock { max-width: 1200px; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: 48px; }
+.roster-grid--mock .artist-strip-card { position: relative; background: var(--off-white); }
+.roster-grid--mock .artist-strip-card.is-hidden { display: none; }
+.roster-grid--mock .artist-strip-img { position: relative; }
+.roster-grid--mock .artist-photo { filter: grayscale(15%) brightness(0.85); }
+.roster-card-link { display: block; text-decoration: none; color: inherit; }
+
+.status-tag {
+    position: absolute; top: 14px; left: 14px; z-index: 2;
+    font-family: var(--sans); font-size: 9px; letter-spacing: 2.5px; text-transform: uppercase;
+    padding: 6px 10px; background: rgba(0,0,0,0.75); color: var(--gold); border: 1px solid rgba(212,175,55,0.5);
+}
+.status-tag.status--flagship { background: var(--gold); color: var(--black); border-color: var(--gold); }
+.status-tag.status--new-signing { background: rgba(0,0,0,0.8); color: #fff; border-color: rgba(255,255,255,0.5); }
+.status-tag.status--in-development { background: rgba(245,243,239,0.9); color: var(--black); border-color: transparent; }
+.status-tag.status--publishing { background: rgba(0,0,0,0.8); color: var(--gold); }
+
+.artist-meta { font-family: var(--sans); font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: var(--gold-dark); margin-bottom: 8px; }
+.roster-grid--mock .artist-strip-info h3 { font-size: 22px; margin-bottom: 6px; }
+.roster-grid--mock .artist-descriptor { margin-bottom: 18px; min-height: 42px; }
+.imagined-note { font-family: var(--sans); font-size: 9px; letter-spacing: 2px; text-transform: uppercase; color: #999; margin-top: 14px; }
+
+/* Roster summary strip */
+.roster-divisions { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; max-width: 1200px; margin: 64px auto 0; border: 1px solid rgba(0,0,0,0.08); }
+.roster-division { padding: 32px 28px; background: var(--white); border-right: 1px solid rgba(0,0,0,0.08); }
+.roster-division:last-child { border-right: none; }
+.roster-division-num { font-family: var(--serif); font-size: 44px; color: var(--black); line-height: 1; }
+.roster-division-name { font-family: var(--sans); font-size: 10px; letter-spacing: 3px; text-transform: uppercase; color: var(--gold-dark); margin: 12px 0 8px; }
+.roster-division-desc { font-family: var(--sans); font-size: 13px; font-weight: 300; color: #555; line-height: 1.6; }
+
+/* ── Artist profile page ── */
+.artist-page { background: var(--black); color: var(--white); padding-top: 140px; }
+.artist-page .section-inner { max-width: 1200px; }
+.artist-back { font-family: var(--sans); font-size: 10px; letter-spacing: 3px; text-transform: uppercase; color: var(--gold); text-decoration: none; }
+.artist-back:hover { color: var(--gold-light); }
+.artist-hero { display: grid; grid-template-columns: 440px 1fr; gap: 64px; margin-top: 40px; align-items: start; }
+.artist-hero-photo { position: sticky; top: 120px; aspect-ratio: 3/4; overflow: hidden; background: var(--grey-mid); border: 1px solid rgba(212,175,55,0.25); }
+.artist-hero-photo img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.artist-hero-photo .status-tag { top: 18px; left: 18px; }
+.artist-kicker { font-family: var(--sans); font-size: 11px; letter-spacing: 4px; text-transform: uppercase; color: var(--gold); margin-bottom: 18px; }
+.artist-name { font-family: var(--serif); font-size: clamp(44px, 6vw, 84px); line-height: 1; color: var(--white); margin-bottom: 20px; letter-spacing: -1px; }
+.artist-tagline { font-family: 'Cormorant Garamond', var(--serif); font-size: 24px; font-style: italic; font-weight: 300; color: rgba(255,255,255,0.7); line-height: 1.4; margin-bottom: 36px; max-width: 620px; }
+.artist-bio p { font-family: var(--sans); font-size: 15px; font-weight: 300; line-height: 1.9; color: rgba(255,255,255,0.78); margin-bottom: 20px; max-width: 620px; }
+.artist-actions { display: flex; gap: 12px; flex-wrap: wrap; margin: 12px 0 40px; }
+.artist-actions .artist-link { color: var(--gold); border-color: var(--gold); font-size: 11px; padding: 10px 22px; }
+.artist-actions .artist-link:hover { background: var(--gold); color: var(--black); }
+.artist-actions .artist-link.is-disabled { opacity: 0.35; pointer-events: none; }
+
+.artist-sound { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 40px; }
+.sound-tag { font-family: var(--sans); font-size: 10px; letter-spacing: 2px; text-transform: uppercase; color: rgba(255,255,255,0.7); border: 1px solid rgba(255,255,255,0.18); padding: 7px 12px; }
+
+.artist-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; margin-bottom: 48px; max-width: 620px; }
+.artist-stat { background: var(--grey-dark); padding: 22px 20px; border: 1px solid rgba(255,255,255,0.06); }
+.artist-stat-val { font-family: var(--serif); font-size: 30px; color: var(--gold); line-height: 1; }
+.artist-stat-key { font-family: var(--sans); font-size: 9px; letter-spacing: 2.5px; text-transform: uppercase; color: rgba(255,255,255,0.45); margin-top: 10px; }
+.artist-stats-note { font-family: var(--sans); font-size: 10px; letter-spacing: 1.5px; text-transform: uppercase; color: rgba(255,255,255,0.3); margin: -36px 0 48px; }
+
+.artist-facts { display: grid; grid-template-columns: 1fr 1fr; gap: 20px 40px; max-width: 620px; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 28px; margin-bottom: 56px; }
+.artist-fact-key { font-family: var(--sans); font-size: 9px; letter-spacing: 2.5px; text-transform: uppercase; color: rgba(255,255,255,0.4); margin-bottom: 6px; }
+.artist-fact-val { font-family: var(--sans); font-size: 14px; color: var(--white); font-weight: 400; }
+
+.artist-releases { margin-top: 0; }
+.artist-releases .section-label { color: var(--gold); }
+.artist-releases .music-grid { margin-top: 28px; grid-template-columns: repeat(4, 1fr); }
+.artist-page .music-title { color: var(--white); }
+.artist-page .music-artist { color: rgba(255,255,255,0.5); }
+.releases-empty-dark { font-family: var(--sans); font-size: 13px; font-weight: 300; color: rgba(255,255,255,0.45); margin-top: 20px; }
+
+.artist-nav { display: flex; justify-content: space-between; align-items: center; gap: 20px; margin-top: 96px; padding-top: 32px; border-top: 1px solid rgba(255,255,255,0.1); }
+.artist-nav a { text-decoration: none; color: var(--white); font-family: var(--serif); font-size: 22px; transition: color 0.3s; }
+.artist-nav a span { display: block; font-family: var(--sans); font-size: 9px; letter-spacing: 3px; text-transform: uppercase; color: var(--gold); margin-bottom: 8px; }
+.artist-nav a:hover { color: var(--gold); }
+.artist-nav a.next { text-align: right; }
+
+/* ── Homepage featured strip ── */
+.featured-artists .section-label, .featured-artists .section-title { text-align: center; }
+.featured-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-top: 48px; max-width: 1200px; margin-left: auto; margin-right: auto; }
+.featured-card { position: relative; display: block; aspect-ratio: 3/4; overflow: hidden; background: var(--grey-mid); text-decoration: none; }
+.featured-card img { width: 100%; height: 100%; object-fit: cover; filter: grayscale(20%) brightness(0.75); transition: transform 0.6s ease, filter 0.6s ease; }
+.featured-card:hover img { transform: scale(1.05); filter: grayscale(0%) brightness(0.9); }
+.featured-card-info { position: absolute; left: 0; right: 0; bottom: 0; padding: 22px 20px; background: linear-gradient(to top, rgba(0,0,0,0.9), rgba(0,0,0,0)); }
+.featured-card-info h3 { font-family: var(--serif); font-size: 20px; color: var(--white); margin-bottom: 4px; }
+.featured-card-info p { font-family: var(--sans); font-size: 9px; letter-spacing: 2.5px; text-transform: uppercase; color: var(--gold); }
+
+@media (max-width: 1024px) {
+    .roster-grid.roster-grid--mock { grid-template-columns: repeat(2, 1fr); }
+    .artist-hero { grid-template-columns: 320px 1fr; gap: 40px; }
+    .artist-releases .music-grid { grid-template-columns: repeat(3, 1fr); }
+    .featured-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 768px) {
+    .roster-grid.roster-grid--mock { grid-template-columns: 1fr; }
+    .roster-divisions { grid-template-columns: 1fr; }
+    .roster-division { border-right: none; border-bottom: 1px solid rgba(0,0,0,0.08); }
+    .artist-page { padding-top: 110px; }
+    .artist-hero { grid-template-columns: 1fr; gap: 32px; }
+    .artist-hero-photo { position: static; max-width: 420px; }
+    .artist-stats { grid-template-columns: 1fr 1fr 1fr; }
+    .artist-releases .music-grid { grid-template-columns: 1fr 1fr; }
+    .artist-nav { flex-direction: column; align-items: stretch; }
+    .artist-nav a.next { text-align: left; }
+}
+@media (max-width: 480px) {
+    .artist-stats, .artist-facts { grid-template-columns: 1fr; }
+    .featured-grid { grid-template-columns: 1fr; }
+}

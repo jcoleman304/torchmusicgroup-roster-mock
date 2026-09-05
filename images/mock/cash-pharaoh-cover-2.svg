@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#161222"/><stop offset="1" stop-color="#070707"/></linearGradient>
+<filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="2"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 0.16"/></feComponentTransfer></filter></defs>
+<rect width="600" height="600" fill="url(#g)"/><rect x="405" y="395" width="416" height="416" fill="#5B4B8A" fill-opacity="0.10" transform="rotate(-19 613 603)"/><rect x="318" y="432" width="374" height="374" fill="#8175a3" fill-opacity="0.15" transform="rotate(-12 505 619)"/><rect x="226" y="443" width="407" height="407" fill="#5B4B8A" fill-opacity="0.21" transform="rotate(21 429 646)"/><rect x="378" y="307" width="390" height="390" fill="#8175a3" fill-opacity="0.15" transform="rotate(-16 573 502)"/>
+<rect width="600" height="600" filter="url(#grain)" opacity="0.5"/>
+<rect x="24" y="24" width="552" height="552" fill="none" stroke="#D4AF37" stroke-opacity="0.35"/>
+<text x="48" y="500" font-family="Playfair Display, Georgia, serif" font-size="44" font-weight="600" fill="#F5F3EF">TOMB TALK</text>
+<text x="48" y="540" font-family="Montserrat, Arial, sans-serif" font-size="14" letter-spacing="4" fill="#D4AF37">CASH PHARAOH &#183; SINGLE</text>
+</svg>

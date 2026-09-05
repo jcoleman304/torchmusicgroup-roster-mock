@@ -42,6 +42,7 @@
 .status-tag.status--flagship { background: var(--gold); color: var(--black); border-color: var(--gold); }
 .status-tag.status--new-signing { background: rgba(0,0,0,0.8); color: #fff; border-color: rgba(255,255,255,0.5); }
 .status-tag.status--in-development { background: rgba(245,243,239,0.9); color: var(--black); border-color: transparent; }
+.status-tag.status--in-talks { background: rgba(245,243,239,0.92); color: #555; border-color: rgba(0,0,0,0.15); }
 .status-tag.status--publishing { background: rgba(0,0,0,0.8); color: var(--gold); }
 
 .artist-meta { font-family: var(--sans); font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: var(--gold-dark); margin-bottom: 8px; }
@@ -119,7 +120,7 @@
 }
 @media (max-width: 768px) {
     .roster-grid.roster-grid--mock { grid-template-columns: 1fr; }
-    .roster-divisions { grid-template-columns: 1fr; }
+    .roster-divisions { grid-template-columns: 1fr !important; }
     .roster-division { border-right: none; border-bottom: 1px solid rgba(0,0,0,0.08); }
     .artist-page { padding-top: 110px; }
     .artist-hero { grid-template-columns: 1fr; gap: 32px; }

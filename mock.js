@@ -60,20 +60,34 @@ async function renderRosterGrid() {
     const count = document.getElementById('roster-count');
     if (count) { const im = artists.filter(a => !a.real).length; count.textContent = `${artists.length} artists` + (im ? ` · ${artists.length - im} real · ${im} imagined` : ''); }
 
-    // Division summary
+    // Division summary (only divisions present on the roster)
     const divs = document.getElementById('roster-divisions');
+    const ORDER = ['Management', 'Partnership', 'Publishing', 'Development', 'TBD'];
+    const desc = {
+        'Management': 'Career strategy, releases, touring, brand, and the day-to-day business of being an artist.',
+        'Partnership': 'Joint ventures where Torch and the artist build the business together: shared investment, shared upside.',
+        'Publishing': 'Writers and producers whose catalog and placements compound across the whole roster.',
+        'Development': 'Artists in the build: voice, identity, songs, and a first impression worth waiting for.',
+        'TBD': 'Conversations in progress. Deal structure to be defined with the artist and counsel.'
+    };
+    const countIn = dv => artists.filter(a => String(a.division).split(' · ').includes(dv)).length;
+    const present = ORDER.filter(dv => countIn(dv) > 0);
     if (divs) {
-        const desc = {
-            'Management': 'Career strategy, releases, touring, brand, and the day-to-day business of being an artist.',
-            'Publishing': 'Writers and producers whose catalog and placements compound across the whole roster.',
-            'Development': 'Artists in the build: voice, identity, songs, and a first impression worth waiting for.'
-        };
-        divs.innerHTML = ['Management', 'Publishing', 'Development'].map(d => `
+        divs.innerHTML = present.map(dv => `
             <div class="roster-division reveal">
-                <div class="roster-division-num">${artists.filter(a => a.division === d).length}</div>
-                <div class="roster-division-name">${d}</div>
-                <div class="roster-division-desc">${desc[d]}</div>
+                <div class="roster-division-num">${countIn(dv)}</div>
+                <div class="roster-division-name">${dv === 'TBD' ? 'Deal TBD' : dv}</div>
+                <div class="roster-division-desc">${desc[dv]}</div>
             </div>`).join('');
+        divs.style.gridTemplateColumns = `repeat(${Math.min(present.length, 4)}, 1fr)`;
+    }
+
+    // Filter buttons (built from the data)
+    const filtersEl = document.getElementById('roster-filters');
+    if (filtersEl) {
+        const items = [['all', 'All'], ...present.map(dv => [dv, dv === 'TBD' ? 'Deal TBD' : dv])];
+        if (artists.some(a => a.status === 'New Signing')) items.push(['New Signing', 'New Signings']);
+        filtersEl.innerHTML = items.map(([k, label], i) => `<button class="roster-filter ${i === 0 ? 'active' : ''}" data-filter="${esc(k)}">${esc(label)}</button>`).join('');
     }
 
     // Filters
@@ -83,7 +97,7 @@ async function renderRosterGrid() {
             btn.classList.add('active');
             const f = btn.dataset.filter;
             grid.querySelectorAll('.artist-strip-card').forEach(card => {
-                const show = f === 'all' || card.dataset.division === f || card.dataset.status === f;
+                const show = f === 'all' || card.dataset.division.split(' · ').includes(f) || card.dataset.status === f;
                 card.classList.toggle('is-hidden', !show);
                 if (show) card.classList.add('visible');
             });
@@ -151,7 +165,7 @@ async function renderArtistPage() {
                 <div class="reveal reveal-delay-2">${stats}</div>
                 <div class="artist-facts reveal reveal-delay-3">
                     <div><div class="artist-fact-key">Genre</div><div class="artist-fact-val">${esc(a.genre)}</div></div>
-                    <div><div class="artist-fact-key">Division</div><div class="artist-fact-val">TMG ${esc(a.division)}</div></div>
+                    <div><div class="artist-fact-key">Deal</div><div class="artist-fact-val">${esc(a.deal || a.division)}</div></div>
                     <div><div class="artist-fact-key">Hometown</div><div class="artist-fact-val">${esc(a.hometown || 'TBD')}</div></div>
                     <div><div class="artist-fact-key">With Torch Since</div><div class="artist-fact-val">${esc(a.since)}</div></div>
                 </div>

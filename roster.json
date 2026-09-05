@@ -1,5 +1,5 @@
 {
-  "_readme": "MOCK ROSTER DATA. Edit this file to add, remove, or rewrite imagined artists. Fields: slug, name, real (true = actual TMG artist), status (Flagship | New Signing | In Development | Publishing), division (Management | Publishing | Development), genre, hometown, descriptor, bio[], sound[], photo, accent, links{}, stats{} (optional), releases[] (mock), since.",
+  "_readme": "MOCK ROSTER DATA. Edit this file to add, remove, or rewrite imagined artists. Fields: slug, name, real (true = actual TMG artist), status (Flagship | New Signing | In Development | Publishing), division (Management | Partnership | Publishing | Development | TBD; combine with ' · ' for split deals), deal (optional plain-language deal description), genre, hometown, descriptor, bio[], sound[], photo, accent, links{}, stats{} (optional), releases[] (mock), since.",
   "artists": [
     {
       "slug": "rnb-foemob",
@@ -34,7 +34,7 @@
       "name": "DKE Author / PutMeOnDK",
       "real": true,
       "status": "Flagship",
-      "division": "Publishing",
+      "division": "Management · Partnership",
       "genre": "Rap · Songwriting",
       "hometown": "Atlanta, GA",
       "descriptor": "The pen behind the hits and the artist in front of them.",
@@ -55,14 +55,15 @@
         "instagram": "https://www.instagram.com/dke_author/"
       },
       "since": 2024,
-      "releases": []
+      "releases": [],
+      "deal": "Management as a songwriter · Partnership as an artist"
     },
     {
       "slug": "obai",
       "name": "Obai",
       "real": true,
       "status": "New Signing",
-      "division": "Management",
+      "division": "Partnership",
       "genre": "R&B · Pop",
       "hometown": "Phoenix, AZ",
       "descriptor": "Gen-Z R&B with a pop instinct and a Sudanese heartbeat.",
@@ -101,14 +102,15 @@
           "date": "2023-01-01",
           "cover": "images/mock/obai-cover-2.svg"
         }
-      ]
+      ],
+      "deal": "Partnership"
     },
     {
       "slug": "dejhha",
       "name": "Dejhha",
       "real": true,
       "status": "New Signing",
-      "division": "Development",
+      "division": "Partnership",
       "genre": "Rap",
       "hometown": "Philadelphia, PA",
       "descriptor": "Philly rap with no filter. Says it on record the way she would say it to your face.",
@@ -147,14 +149,15 @@
           "date": "2024-08-01",
           "cover": "images/mock/dejhha-cover-2.svg"
         }
-      ]
+      ],
+      "deal": "Partnership"
     },
     {
       "slug": "1f-flippa",
       "name": "1F Flippa",
       "real": true,
       "status": "New Signing",
-      "division": "Management",
+      "division": "Partnership",
       "genre": "Rap",
       "hometown": "Savannah, GA",
       "descriptor": "From the NFL to the booth. Savannah rap with discipline, positivity, and a chain that says the name.",
@@ -199,14 +202,15 @@
           "date": "2022-01-01",
           "cover": "images/mock/1f-flippa-cover-3.svg"
         }
-      ]
+      ],
+      "deal": "Partnership"
     },
     {
       "slug": "shyanne",
       "name": "Shyanne",
       "real": true,
-      "status": "New Signing",
-      "division": "Development",
+      "status": "In Talks",
+      "division": "TBD",
       "genre": "R&B · Pop",
       "hometown": "",
       "descriptor": "Soulful voice, bright energy. A singer-songwriter with the range to go pop and the roots to stay R&B.",
@@ -245,14 +249,15 @@
           "date": "2025-01-01",
           "cover": "images/mock/shyanne-cover-2.svg"
         }
-      ]
+      ],
+      "deal": "Deal structure TBD"
     },
     {
       "slug": "gringo",
       "name": "Gringo",
       "real": true,
-      "status": "New Signing",
-      "division": "Management",
+      "status": "In Talks",
+      "division": "TBD",
       "genre": "Rap",
       "hometown": "Texas",
       "descriptor": "Texas to the bone. Camo brim, Stars jersey, and records built for the truck speakers.",
@@ -278,7 +283,8 @@
         "top_market": "Dallas · Houston · Austin"
       },
       "since": 2026,
-      "releases": []
+      "releases": [],
+      "deal": "Deal structure TBD"
     }
   ]
 }

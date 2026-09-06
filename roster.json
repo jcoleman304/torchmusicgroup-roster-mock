@@ -251,40 +251,6 @@
         }
       ],
       "deal": "Deal structure TBD"
-    },
-    {
-      "slug": "gringo",
-      "name": "Gringo",
-      "real": true,
-      "status": "In Talks",
-      "division": "TBD",
-      "genre": "Rap",
-      "hometown": "Texas",
-      "descriptor": "Texas to the bone. Camo brim, Stars jersey, and records built for the truck speakers.",
-      "bio": [
-        "Gringo is a Texas rapper with a Texas-sized identity: the state on his hat, the Dallas Stars on his back, and a sound that sits where Southern rap meets the country side of the road. He connects with the audience Torch already knows well from the RNB.FOEMOB run across the state.",
-        "On the Torch roster, Gringo is a natural running mate for Foe in the Texas market: shared shows, shared fanbase, and a lane between rap and country that is wide open right now."
-      ],
-      "sound": [
-        "Texas Rap",
-        "Southern",
-        "Country-Rap",
-        "Trucks & Trailers"
-      ],
-      "photo": "images/gringo-web.jpg",
-      "accent": "#1E7A4C",
-      "links": {
-        "spotify": "#",
-        "instagram": "#"
-      },
-      "stats": {
-        "monthly_listeners": "—",
-        "followers": "—",
-        "top_market": "Dallas · Houston · Austin"
-      },
-      "since": 2026,
-      "releases": [],
-      "deal": "Deal structure TBD"
     }
   ]
 }

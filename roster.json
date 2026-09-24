@@ -106,53 +106,6 @@
       "deal": "Partnership"
     },
     {
-      "slug": "dejhha",
-      "name": "Dejhha",
-      "real": true,
-      "status": "New Signing",
-      "division": "Partnership",
-      "genre": "Rap",
-      "hometown": "Philadelphia, PA",
-      "descriptor": "Philly rap with no filter. Says it on record the way she would say it to your face.",
-      "bio": [
-        "Dejhha is a Philadelphia rapper who built her audience on honesty and attitude. Her independent run of singles across 2024 and 2025, including F**k Love, What He Like, and Fakers, reads like a group chat with the volume up: relationship records, no apologies, and a delivery that is unmistakably Philly.",
-        "Torch brought Dejhha into the roster as a development signing with a clear thesis. The pen and the presence are already there. The infrastructure is what turns a hometown following into a career, and it puts a second Philadelphia artist on a label founded by one."
-      ],
-      "sound": [
-        "Philly Rap",
-        "Melodic Rap",
-        "R&B-Leaning",
-        "East Coast"
-      ],
-      "photo": "images/dejhha-web.jpg",
-      "accent": "#B8742F",
-      "links": {
-        "spotify": "https://open.spotify.com/artist/7yfcD7byio7Sw5RaF0Dnc5",
-        "instagram": "#"
-      },
-      "stats": {
-        "monthly_listeners": "—",
-        "followers": "—",
-        "top_market": "Philadelphia · NYC · Baltimore"
-      },
-      "since": 2026,
-      "releases": [
-        {
-          "title": "Fakers",
-          "type": "Single",
-          "date": "2025-06-01",
-          "cover": "images/mock/dejhha-cover-1.svg"
-        },
-        {
-          "title": "What He Like",
-          "type": "Single",
-          "date": "2024-08-01",
-          "cover": "images/mock/dejhha-cover-2.svg"
-        }
-      ],
-      "deal": "Partnership"
-    },
-    {
       "slug": "1f-flippa",
       "name": "1F Flippa",
       "real": true,
@@ -204,6 +157,54 @@
         }
       ],
       "deal": "Partnership"
+    },
+    {
+      "slug": "secily",
+      "name": "Secily",
+      "real": true,
+      "status": "New Signing",
+      "division": "Partnership",
+      "deal": "Partnership",
+      "genre": "R&B · Pop",
+      "hometown": "New York, NY",
+      "descriptor": "Sweet on the surface, soul underneath. A writer-producer who sings her own records.",
+      "bio": [
+        "Secily is a New York singer, songwriter, and producer working the line between contemporary R&B and vintage soul. Records like Without You, Gah Damn, Better Days, and battlefield pair a sensuous, sweet vocal with lyrics about love, heartbreak, and self-discovery, and a TikTok following in the hundreds of thousands built on the strength of her voice alone.",
+        "What separates her on the roster is the pen and the boards. With years of writing and producing behind the scenes, including co-writing and production credits for major artists, Secily arrives at Torch as a full creative unit. The partnership puts TMG infrastructure, Torch ATL, and the publishing roster behind an artist who already makes finished records."
+      ],
+      "sound": [
+        "R&B",
+        "Soul",
+        "Pop",
+        "Singer-Songwriter",
+        "Producer"
+      ],
+      "photo": "images/secily-web.jpg",
+      "accent": "#C9A24A",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/32eZd7DKXr4eQTWqWRHGe2",
+        "instagram": "#"
+      },
+      "stats": {
+        "monthly_listeners": "—",
+        "followers": "—",
+        "top_market": "New York · Los Angeles · Atlanta"
+      },
+      "since": 2026,
+      "releases": [
+        {
+          "title": "battlefield",
+          "type": "Single",
+          "date": "2025-01-01",
+          "cover": "images/mock/secily-cover-1.svg"
+        },
+        {
+          "title": "Without You",
+          "type": "Single",
+          "date": "2024-01-01",
+          "cover": "images/mock/secily-cover-2.svg"
+        }
+      ]
     },
     {
       "slug": "shyanne",

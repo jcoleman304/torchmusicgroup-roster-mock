@@ -39,7 +39,6 @@ async function renderRosterGrid() {
         <div class="artist-strip-card reveal ${i % 3 ? 'reveal-delay-' + (i % 3) : ''}" data-division="${esc(a.division)}" data-status="${esc(a.status)}">
             <a href="artist.html?a=${encodeURIComponent(a.slug)}" class="roster-card-link">
                 <div class="artist-strip-img has-photo">
-                    <span class="status-tag ${statusClass(a.status)}">${esc(a.status)}</span>
                     <img src="${esc(a.photo)}" alt="${esc(a.name)}" class="artist-photo" loading="lazy">
                 </div>
             </a>
@@ -86,7 +85,6 @@ async function renderRosterGrid() {
     const filtersEl = document.getElementById('roster-filters');
     if (filtersEl) {
         const items = [['all', 'All'], ...present.map(dv => [dv, dv === 'TBD' ? 'Deal TBD' : dv])];
-        if (artists.some(a => a.status === 'New Signing')) items.push(['New Signing', 'New Signings']);
         filtersEl.innerHTML = items.map(([k, label], i) => `<button class="roster-filter ${i === 0 ? 'active' : ''}" data-filter="${esc(k)}">${esc(label)}</button>`).join('');
     }
 
@@ -148,7 +146,6 @@ async function renderArtistPage() {
         <a href="roster.html" class="artist-back">&larr; Back to the Roster</a>
         <div class="artist-hero">
             <div class="artist-hero-photo reveal">
-                <span class="status-tag ${statusClass(a.status)}">${esc(a.status)}</span>
                 <img src="${esc(a.photo)}" alt="${esc(a.name)}">
             </div>
             <div class="artist-hero-copy">

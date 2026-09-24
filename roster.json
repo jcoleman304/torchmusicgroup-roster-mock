@@ -2,32 +2,57 @@
   "_readme": "MOCK ROSTER DATA. Edit this file to add, remove, or rewrite imagined artists. Fields: slug, name, real (true = actual TMG artist), status (Flagship | New Signing | In Development | Publishing), division (Management | Partnership | Publishing | Development | TBD; combine with ' · ' for split deals), deal (optional plain-language deal description), genre, hometown, descriptor, bio[], sound[], photo, accent, links{}, stats{} (optional), releases[] (mock), since.",
   "artists": [
     {
-      "slug": "rnb-foemob",
-      "name": "RNB.FOEMOB",
+      "slug": "1f-flippa",
+      "name": "1F Flippa",
       "real": true,
-      "status": "Flagship",
-      "division": "Management",
+      "status": "New Signing",
+      "division": "Partnership",
       "genre": "Rap",
-      "hometown": "San Antonio, TX",
-      "descriptor": "Texas rap with a chip on its shoulder and a hook for every block.",
+      "hometown": "Savannah, GA",
+      "descriptor": "From the NFL to the booth. Savannah rap with discipline, positivity, and a chain that says the name.",
       "bio": [
-        "RNB.FOEMOB is the anchor of the Torch roster. A San Antonio-bred rapper whose catalog moves from street records to radio-ready melodies without losing the accent, Foe has built his audience one release at a time, on his own terms, and carried it across the whole state of Texas.",
-        "After the Square Bidnez album in late 2025, 2026 has been a single-a-month campaign: Come Up, Big On Big, Steak With Lobster, Tonka Truck, ROUND 3. Each record is a chapter, and the run is the story."
+        "1F Flippa came to rap the long way: a former NFL player from Savannah, Georgia who traded the field for the booth and brought the work ethic with him. His catalog runs from the Best of Flip project to a steady stream of singles including Talking Crazy, Vezzo Flow, Roll On, and Show Me, alongside his Solo Rockin clothing brand.",
+        "On the Torch roster, Flippa is the label's Savannah connection and a proven independent operator: an artist with a story, a brand, and a live show, who needs infrastructure more than a reinvention. Georgia to Georgia, coast to the capital."
       ],
       "sound": [
-        "Texas Rap",
-        "Melodic Trap",
-        "Slab Music",
-        "Southern"
+        "Savannah Rap",
+        "Southern",
+        "Motivational",
+        "Trap"
       ],
-      "photo": "images/foemob-web.jpg",
-      "accent": "#D4AF37",
+      "photo": "images/1f-flippa-web.jpg",
+      "accent": "#B3382C",
       "links": {
-        "spotify": "https://open.spotify.com/artist/3YrSdCCaG11xDOpXYJdGl3",
-        "instagram": "https://www.instagram.com/rnb.fo3mob/"
+        "spotify": "https://open.spotify.com/artist/5AzBSEuvlzvEintWZyLunc",
+        "instagram": "#"
       },
-      "since": 2024,
-      "releases": []
+      "stats": {
+        "monthly_listeners": "—",
+        "followers": "—",
+        "top_market": "Savannah · Atlanta · Jacksonville"
+      },
+      "since": 2026,
+      "releases": [
+        {
+          "title": "Show Me",
+          "type": "Single",
+          "date": "2026-01-01",
+          "cover": "images/mock/1f-flippa-cover-1.svg"
+        },
+        {
+          "title": "Roll On",
+          "type": "Single",
+          "date": "2026-01-01",
+          "cover": "images/mock/1f-flippa-cover-2.svg"
+        },
+        {
+          "title": "Best of Flip",
+          "type": "Album",
+          "date": "2022-01-01",
+          "cover": "images/mock/1f-flippa-cover-3.svg"
+        }
+      ],
+      "deal": "Partnership"
     },
     {
       "slug": "dke-author",
@@ -106,57 +131,32 @@
       "deal": "Partnership"
     },
     {
-      "slug": "1f-flippa",
-      "name": "1F Flippa",
+      "slug": "rnb-foemob",
+      "name": "RNB.FOEMOB",
       "real": true,
-      "status": "New Signing",
-      "division": "Partnership",
+      "status": "Flagship",
+      "division": "Management",
       "genre": "Rap",
-      "hometown": "Savannah, GA",
-      "descriptor": "From the NFL to the booth. Savannah rap with discipline, positivity, and a chain that says the name.",
+      "hometown": "San Antonio, TX",
+      "descriptor": "Texas rap with a chip on its shoulder and a hook for every block.",
       "bio": [
-        "1F Flippa came to rap the long way: a former NFL player from Savannah, Georgia who traded the field for the booth and brought the work ethic with him. His catalog runs from the Best of Flip project to a steady stream of singles including Talking Crazy, Vezzo Flow, Roll On, and Show Me, alongside his Solo Rockin clothing brand.",
-        "On the Torch roster, Flippa is the label's Savannah connection and a proven independent operator: an artist with a story, a brand, and a live show, who needs infrastructure more than a reinvention. Georgia to Georgia, coast to the capital."
+        "RNB.FOEMOB is the anchor of the Torch roster. A San Antonio-bred rapper whose catalog moves from street records to radio-ready melodies without losing the accent, Foe has built his audience one release at a time, on his own terms, and carried it across the whole state of Texas.",
+        "After the Square Bidnez album in late 2025, 2026 has been a single-a-month campaign: Come Up, Big On Big, Steak With Lobster, Tonka Truck, ROUND 3. Each record is a chapter, and the run is the story."
       ],
       "sound": [
-        "Savannah Rap",
-        "Southern",
-        "Motivational",
-        "Trap"
+        "Texas Rap",
+        "Melodic Trap",
+        "Slab Music",
+        "Southern"
       ],
-      "photo": "images/1f-flippa-web.jpg",
-      "accent": "#B3382C",
+      "photo": "images/foemob-web.jpg",
+      "accent": "#D4AF37",
       "links": {
-        "spotify": "https://open.spotify.com/artist/5AzBSEuvlzvEintWZyLunc",
-        "instagram": "#"
+        "spotify": "https://open.spotify.com/artist/3YrSdCCaG11xDOpXYJdGl3",
+        "instagram": "https://www.instagram.com/rnb.fo3mob/"
       },
-      "stats": {
-        "monthly_listeners": "—",
-        "followers": "—",
-        "top_market": "Savannah · Atlanta · Jacksonville"
-      },
-      "since": 2026,
-      "releases": [
-        {
-          "title": "Show Me",
-          "type": "Single",
-          "date": "2026-01-01",
-          "cover": "images/mock/1f-flippa-cover-1.svg"
-        },
-        {
-          "title": "Roll On",
-          "type": "Single",
-          "date": "2026-01-01",
-          "cover": "images/mock/1f-flippa-cover-2.svg"
-        },
-        {
-          "title": "Best of Flip",
-          "type": "Album",
-          "date": "2022-01-01",
-          "cover": "images/mock/1f-flippa-cover-3.svg"
-        }
-      ],
-      "deal": "Partnership"
+      "since": 2024,
+      "releases": []
     },
     {
       "slug": "secily",

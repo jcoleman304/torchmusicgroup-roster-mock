@@ -2,135 +2,6 @@
   "_readme": "MOCK ROSTER DATA. Edit this file to add, remove, or rewrite imagined artists. Fields: slug, name, real (true = actual TMG artist), status (Flagship | New Signing | In Development | Publishing), division (Management | Partnership | Publishing | Development | TBD; combine with ' · ' for split deals), deal (optional plain-language deal description), genre, hometown, descriptor, bio[], sound[], photo, accent, links{}, stats{} (optional), releases[] (mock), since.",
   "artists": [
     {
-      "slug": "1f-flippa",
-      "name": "1F Flippa",
-      "real": true,
-      "status": "New Signing",
-      "division": "Partnership",
-      "genre": "Rap",
-      "hometown": "Savannah, GA",
-      "descriptor": "From the NFL to the booth. Savannah rap with discipline, positivity, and a chain that says the name.",
-      "bio": [
-        "1F Flippa came to rap the long way: a former NFL player from Savannah, Georgia who traded the field for the booth and brought the work ethic with him. His catalog runs from the Best of Flip project to a steady stream of singles including Talking Crazy, Vezzo Flow, Roll On, and Show Me, alongside his Solo Rockin clothing brand.",
-        "On the Torch roster, Flippa is the label's Savannah connection and a proven independent operator: an artist with a story, a brand, and a live show, who needs infrastructure more than a reinvention. Georgia to Georgia, coast to the capital."
-      ],
-      "sound": [
-        "Savannah Rap",
-        "Southern",
-        "Motivational",
-        "Trap"
-      ],
-      "photo": "images/1f-flippa-web.jpg",
-      "accent": "#B3382C",
-      "links": {
-        "spotify": "https://open.spotify.com/artist/5AzBSEuvlzvEintWZyLunc",
-        "instagram": "#"
-      },
-      "stats": {
-        "monthly_listeners": "—",
-        "followers": "—",
-        "top_market": "Savannah · Atlanta · Jacksonville"
-      },
-      "since": 2026,
-      "releases": [
-        {
-          "title": "Show Me",
-          "type": "Single",
-          "date": "2026-01-01",
-          "cover": "images/mock/1f-flippa-cover-1.svg"
-        },
-        {
-          "title": "Roll On",
-          "type": "Single",
-          "date": "2026-01-01",
-          "cover": "images/mock/1f-flippa-cover-2.svg"
-        },
-        {
-          "title": "Best of Flip",
-          "type": "Album",
-          "date": "2022-01-01",
-          "cover": "images/mock/1f-flippa-cover-3.svg"
-        }
-      ],
-      "deal": "Partnership"
-    },
-    {
-      "slug": "dke-author",
-      "name": "DKE Author / PutMeOnDK",
-      "real": true,
-      "status": "Flagship",
-      "division": "Management · Partnership",
-      "genre": "Rap · Songwriting",
-      "hometown": "Belle Glade, FL",
-      "descriptor": "The pen behind the hits and the artist in front of them.",
-      "bio": [
-        "DKE Author records under his own name and writes for everyone else as PutMeOnDK. A Belle Glade, Florida native, his writing credits run from Latto and Cardi B (Put It On Da Floor Again) to Mello Buckzz and Andraya, and his solo catalog carries the same instinct for melody that makes his placements land.",
-        "At Torch, DK sits at the center of the publishing pillar: a working writer with a growing artist project, and proof that the two careers feed each other."
-      ],
-      "sound": [
-        "Melodic Rap",
-        "Topline",
-        "Hooks",
-        "R&B"
-      ],
-      "photo": "images/dke-author-web.jpg",
-      "accent": "#D4AF37",
-      "links": {
-        "spotify": "https://open.spotify.com/artist/2tJG35evsfk9E2i6Yj01Im",
-        "instagram": "https://www.instagram.com/dke_author/"
-      },
-      "since": 2024,
-      "releases": [],
-      "deal": "Management as a songwriter · Partnership as an artist"
-    },
-    {
-      "slug": "obai",
-      "name": "Obai",
-      "real": true,
-      "status": "New Signing",
-      "division": "Partnership",
-      "genre": "R&B · Pop",
-      "hometown": "Phoenix, AZ",
-      "descriptor": "Gen-Z R&B with a pop instinct and a Sudanese heartbeat.",
-      "bio": [
-        "Obai is a Phoenix-raised R&B artist who grew up between the Sudanese records his parents played at home and the Bryson Tiller, Drake, and Weeknd era he came of age in. His debut single The River found a national audience after a Grey's Anatomy placement, and his debut EP svnteen framed him as one of the most melodic voices of his generation.",
-        "On the Torch roster, Obai is the bridge between the R&B and pop lanes: a writer-first artist with sync appeal, a live show already road-tested opening for Bryson Tiller, and room to grow into an album artist."
-      ],
-      "sound": [
-        "R&B",
-        "Pop",
-        "Alt-Pop",
-        "Sudanese Roots"
-      ],
-      "photo": "images/obai-web.jpg",
-      "accent": "#7A5C3A",
-      "links": {
-        "spotify": "https://open.spotify.com/search/Obai",
-        "instagram": "https://www.instagram.com/obaimusic/"
-      },
-      "stats": {
-        "monthly_listeners": "—",
-        "followers": "—",
-        "top_market": "Phoenix · LA · NYC"
-      },
-      "since": 2026,
-      "releases": [
-        {
-          "title": "svnteen",
-          "type": "EP",
-          "date": "2024-01-01",
-          "cover": "images/mock/obai-cover-1.svg"
-        },
-        {
-          "title": "The River",
-          "type": "Single",
-          "date": "2023-01-01",
-          "cover": "images/mock/obai-cover-2.svg"
-        }
-      ],
-      "deal": "Partnership"
-    },
-    {
       "slug": "rnb-foemob",
       "name": "RNB.FOEMOB",
       "real": true,
@@ -207,6 +78,82 @@
       ]
     },
     {
+      "slug": "obai",
+      "name": "Obai",
+      "real": true,
+      "status": "New Signing",
+      "division": "Partnership",
+      "genre": "R&B · Pop",
+      "hometown": "Phoenix, AZ",
+      "descriptor": "Gen-Z R&B with a pop instinct and a Sudanese heartbeat.",
+      "bio": [
+        "Obai is a Phoenix-raised R&B artist who grew up between the Sudanese records his parents played at home and the Bryson Tiller, Drake, and Weeknd era he came of age in. His debut single The River found a national audience after a Grey's Anatomy placement, and his debut EP svnteen framed him as one of the most melodic voices of his generation.",
+        "On the Torch roster, Obai is the bridge between the R&B and pop lanes: a writer-first artist with sync appeal, a live show already road-tested opening for Bryson Tiller, and room to grow into an album artist."
+      ],
+      "sound": [
+        "R&B",
+        "Pop",
+        "Alt-Pop",
+        "Sudanese Roots"
+      ],
+      "photo": "images/obai-web.jpg",
+      "accent": "#7A5C3A",
+      "links": {
+        "spotify": "https://open.spotify.com/search/Obai",
+        "instagram": "https://www.instagram.com/obaimusic/"
+      },
+      "stats": {
+        "monthly_listeners": "—",
+        "followers": "—",
+        "top_market": "Phoenix · LA · NYC"
+      },
+      "since": 2026,
+      "releases": [
+        {
+          "title": "svnteen",
+          "type": "EP",
+          "date": "2024-01-01",
+          "cover": "images/mock/obai-cover-1.svg"
+        },
+        {
+          "title": "The River",
+          "type": "Single",
+          "date": "2023-01-01",
+          "cover": "images/mock/obai-cover-2.svg"
+        }
+      ],
+      "deal": "Partnership"
+    },
+    {
+      "slug": "dke-author",
+      "name": "DKE Author / PutMeOnDK",
+      "real": true,
+      "status": "Flagship",
+      "division": "Management · Partnership",
+      "genre": "Rap · Songwriting",
+      "hometown": "Belle Glade, FL",
+      "descriptor": "The pen behind the hits and the artist in front of them.",
+      "bio": [
+        "DKE Author records under his own name and writes for everyone else as PutMeOnDK. A Belle Glade, Florida native, his writing credits run from Latto and Cardi B (Put It On Da Floor Again) to Mello Buckzz and Andraya, and his solo catalog carries the same instinct for melody that makes his placements land.",
+        "At Torch, DK sits at the center of the publishing pillar: a working writer with a growing artist project, and proof that the two careers feed each other."
+      ],
+      "sound": [
+        "Melodic Rap",
+        "Topline",
+        "Hooks",
+        "R&B"
+      ],
+      "photo": "images/dke-author-web.jpg",
+      "accent": "#D4AF37",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/2tJG35evsfk9E2i6Yj01Im",
+        "instagram": "https://www.instagram.com/dke_author/"
+      },
+      "since": 2024,
+      "releases": [],
+      "deal": "Management as a songwriter · Partnership as an artist"
+    },
+    {
       "slug": "shyanne",
       "name": "Shyanne",
       "real": true,
@@ -252,6 +199,59 @@
         }
       ],
       "deal": "Deal structure TBD"
+    },
+    {
+      "slug": "1f-flippa",
+      "name": "1F Flippa",
+      "real": true,
+      "status": "New Signing",
+      "division": "Partnership",
+      "genre": "Rap",
+      "hometown": "Savannah, GA",
+      "descriptor": "From the NFL to the booth. Savannah rap with discipline, positivity, and a chain that says the name.",
+      "bio": [
+        "1F Flippa came to rap the long way: a former NFL player from Savannah, Georgia who traded the field for the booth and brought the work ethic with him. His catalog runs from the Best of Flip project to a steady stream of singles including Talking Crazy, Vezzo Flow, Roll On, and Show Me, alongside his Solo Rockin clothing brand.",
+        "On the Torch roster, Flippa is the label's Savannah connection and a proven independent operator: an artist with a story, a brand, and a live show, who needs infrastructure more than a reinvention. Georgia to Georgia, coast to the capital."
+      ],
+      "sound": [
+        "Savannah Rap",
+        "Southern",
+        "Motivational",
+        "Trap"
+      ],
+      "photo": "images/1f-flippa-web.jpg",
+      "accent": "#B3382C",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/5AzBSEuvlzvEintWZyLunc",
+        "instagram": "#"
+      },
+      "stats": {
+        "monthly_listeners": "—",
+        "followers": "—",
+        "top_market": "Savannah · Atlanta · Jacksonville"
+      },
+      "since": 2026,
+      "releases": [
+        {
+          "title": "Show Me",
+          "type": "Single",
+          "date": "2026-01-01",
+          "cover": "images/mock/1f-flippa-cover-1.svg"
+        },
+        {
+          "title": "Roll On",
+          "type": "Single",
+          "date": "2026-01-01",
+          "cover": "images/mock/1f-flippa-cover-2.svg"
+        },
+        {
+          "title": "Best of Flip",
+          "type": "Album",
+          "date": "2022-01-01",
+          "cover": "images/mock/1f-flippa-cover-3.svg"
+        }
+      ],
+      "deal": "Partnership"
     }
   ]
 }
